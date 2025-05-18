@@ -13,7 +13,7 @@ const Home = () => {
     name: "Itunuoluwa Abidoye",
   };
 
-  const [balance, setBalance] = useState<number>(14235.34);
+  const [balance] = useState<number>(14235.34);
 
   // แปลง balance เป็นสตริงแบบมี comma และแยกทศนิยม
   const formatted = balance.toLocaleString("en-US", {
